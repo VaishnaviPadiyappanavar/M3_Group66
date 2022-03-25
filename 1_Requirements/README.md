@@ -42,3 +42,27 @@ How-
 
 
 
+
+
+
+## Test Plan and Output
+# High Level Test Plan:
+|Test Id|Description|Expected input|Expected output|Actual output|pass/fail|
+|-------|-----------|--------------|---------------|-------------|---------|
+|HLT1 | Induction motor model| parameters such as Rs(stator resistance),Rr(rotar resistance),Ls(stator Inductance),Lr(rotar Inductance),Lm(magnetizing Inductance),Jm(Inertia Constant)| Torque ,Speed|Torque,Speed |pass|
+|HLT2 | torque characteristics of the Induction Motor|current in d-q reference frame | torque | torque|pass|
+|HLT3 | speed characteristics of the Induction Motor |Torque ,Inertia constant,Load torque |electrical speed |electrical speed|pass|
+
+
+
+# Low level Test plan:
+|Test Id|Description|Expected input|Expected output|Actual output|pass/fail|
+|-------|-----------|--------------|---------------|-------------|---------|
+|LLT1 |  |  | | |pass|
+|LLT2 |  | | | |pass|
+|L | || ||pass|
+
+
+
+
+
