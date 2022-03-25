@@ -58,7 +58,7 @@ How-
 # Low level Test plan:
 |Test Id|Description|Expected input|Expected output|Actual output|pass/fail|
 |-------|-----------|--------------|---------------|-------------|---------|
-|LLT1 | Conversion of three phase volatges to d-q reference frame   | Three phase voltages |voltages in d-q reference frame | |pass|
+|LLT1 | Conversion of three phase volatges to d-q reference frame   | Three phase voltages |voltages in d-q reference frame |voltages in d-q reference frame |pass|
 |LLT2 |Obtaining the flux linkages in d-q reference frame |voltage and current in d-q reference frame |flux linkage in d-q reference frame |flux linkage in d-q reference frame  |pass|
 |LLT3 |Obtaining the current in d-q reference  |flux linkage in d-q reference frame| current in d-q reference frame|current in d-q reference frame|pass|
 |LLT4 |Obtaining the torque  |Current in d-q reference| Torque |Torque|pass|
